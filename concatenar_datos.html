@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Concatenar Datos</title>
+  </head>
+  <body>
+    <script>
+      let nombre = "Juan";
+      let apellido = "Perez";
+      let precio = 500.0;
+
+      document.writeln(nombre + " " + apellido);
+      document.writeln("<br>");
+      document.writeln("Nombre:" + nombre + " " + apellido);
+      document.writeln("<br>");
+      let saludo = nombre.concat(apellido);
+      document.writeln(saludo);
+      document.writeln("<br>");
+      document.writeln("El precio es: " + precio);
+      document.writeln("<br>");
+      document.writeln("=================<br>");
+      document.writeln(nombre, " ", apellido);
+      document.writeln("<br>");
+      document.writeln("El precio es: ", precio);
+    </script>
+  </body>
+</html>
