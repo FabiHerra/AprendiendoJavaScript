@@ -5,7 +5,8 @@ var NOMBRE = "Elizabeth";
 
 console.log(nombre);
 
+console.log(Nombre);
 
+console.log(_nombre);
 
-
-
+console.log(NOMBRE);
